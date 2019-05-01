@@ -42,9 +42,9 @@ class SportsEventsViewController: UIViewController, UITableViewDataSource, UITab
         
         if let cell = cell as? SportsEventTableViewCell,
             let sportsEvent = sportsEvents?.events[indexPath.row] {
-            cell.matchupLabel.text = sportsEvent.matchup
+            cell.matchupLabel.text = sportsEvent.title
             cell.dateLabel.text = dateFormatter.string(from: sportsEvent.date)
-            cell.sportImageView.image = UIImage(named: sportsEvent.sport.rawValue)
+            cell.sportImageView.image = UIImage(named: sportsEvent.classification.rawValue)
         }
         
         return cell

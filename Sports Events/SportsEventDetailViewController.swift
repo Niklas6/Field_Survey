@@ -12,6 +12,7 @@ class SportsEventDetailViewController: UIViewController {
     @IBOutlet weak var sportImageView: UIImageView!
     @IBOutlet weak var matchupLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var desc: UITextField!
     
     let dateFormatter = DateFormatter()
     
@@ -24,9 +25,10 @@ class SportsEventDetailViewController: UIViewController {
         dateFormatter.timeStyle = .medium
 
         if let sportsEvent = sportsEvent {
-            matchupLabel.text = sportsEvent.matchup
+            matchupLabel.text = sportsEvent.title
             dateLabel.text = dateFormatter.string(from: sportsEvent.date)
-            sportImageView.image = UIImage(named: sportsEvent.sport.rawValue)
+            desc.text = sportsEvent.description
+            sportImageView.image = UIImage(named: sportsEvent.classification.rawValue)
         }
     }
 }

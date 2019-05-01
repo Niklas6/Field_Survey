@@ -1,105 +1,71 @@
 {
     "status": "ok",
     "events": [
-	   {
-	   "sport": "basketball",
-	   "matchup" : "Portland at Orlando",
-	   "date" : "2017-02-23T18:00:00Z"
-	   },
-	   {
-	   "sport": "basketball",
-	   "matchup" : "Charlotte at Detroit",
-	   "date" : "2017-02-23T18:30:00Z"
-	   },
-	   {
-	   "sport": "basketball",
-	   "matchup" : "Houston at New Orleans",
-	   "date" : "2017-02-23T19:00:00Z"
-	   },
-	   {
-	   "sport": "basketball",
-	   "matchup" : "New York at Cleveland",
-	   "date" : "2017-02-23T19:00:00Z"
-	   },
-	   {
-	   "sport": "basketball",
-	   "matchup" : "LA at Golden State",
-	   "date" : "2017-02-23T21:30:00Z"
-	   },
-	   {
-	   "sport": "basketball",
-	   "matchup" : "Denver at Sacramento",
-	   "date" : "2017-02-23T21:30:00Z"
-	   },
-	   {
-	   "sport": "soccer",
-	   "matchup" : "Edmonton at Washington",
-	   "date" : "2017-02-23T19:30:00Z"
-	   },
-	   {
-	   "sport": "soccer",
-	   "matchup" : "Washington at Philadelphia",
-	   "date" : "2017-02-23T20:00:00Z"
-	   },
-	   {
-	   "sport": "soccer",
-	   "matchup" : "Boston at Anaheim",
-	   "date" : "2017-02-23T22:30:00Z"
-	   },
-	   {
-	   "sport": "football",
-	   "matchup" : "Baltimore at Cincinnati",
-	   "date" : "2018-01-01T14:30:00Z"
-	   },
-	   {
-	   "sport": "football",
-	   "matchup" : "Houston at Tennessee",
-	   "date" : "2018-01-01T16:30:00Z"
-	   },
-	   {
-	   "sport": "football",
-	   "matchup" : "Carolina at Tampa Bay",
-	   "date" : "2018-01-01T17:30:00Z"
-	   },
-	   {
-	   "sport": "football",
-	   "matchup" : "New England at Miami",
-	   "date" : "2018-01-01T14:30:00Z"
-	   },
-	   {
-	   "sport": "baseball",
-	   "matchup" : "Nationals vs Dodgers",
-	   "date" : "2018-10-11T16:30:00Z"
-	   },
-	   {
-	   "sport": "baseball",
-	   "matchup" : "Cubs vs Giants",
-	   "date" : "2018-10-12T14:30:00Z"
-	   },
-	   {
-	   "sport": "baseball",
-	   "matchup" : "Indians vs Blue Jays",
-	   "date" : "2018-10-17T16:00:00Z"
-	   },
-	   {
-	   "sport": "baseball",
-	   "matchup" : "Cubs vs Indians",
-	   "date" : "2018-10-26T14:30:00Z"
-	   },
-	   {
-	   "sport": "hockey",
-	   "matchup" : "NY Rangers at Toronto",
-	   "date" : "2017-02-23T19:30:00Z"
-	   },
-	   {
-	   "sport": "hockey",
-	   "matchup" : "Calgary at Tampa Bay",
-	   "date" : "2017-02-23T19:30:00Z"
-	   },
-	   {
-	   "sport": "hockey",
-	   "matchup" : "Arizon at Chicago",
-	   "date" : "2017-02-23T20:30:00Z"
-	   }
-	]
+        {
+            "classification": "bird",
+            "title" : "Red-tailed Hawk",
+            "description" : "Standing in tree in middle of wooded area.",
+            "date" : "2017-06-14T18:00:03Z"
+        },
+        {
+            "classification": "amphibian",
+            "title" : "American Bullfrog",
+            "description" : "Seated in the grassy area next to the pond.",
+            "date" : "2017-06-15T11:10:23Z"
+        },
+        {
+            "classification": "reptile",
+            "title" : "Cottonmouth Snake",
+            "description" : "Laying on rocks near the pond.",
+            "date" : "2017-06-15T11:15:12Z"
+        },
+        {
+            "classification": "reptile",
+            "title" : "Prairie Lizard",
+            "description" : "Laying on a sunny rock 10 meters from the south end of the pond.",
+            "date" : "2017-06-16T15:12:45Z"
+        },
+        {
+            "classification": "insect",
+            "title" : "Red-spotted Purple Butterfly",
+            "description" : "Standing on flowering plant in middle of meadow.",
+            "date" : "2017-06-17T16:26:42Z"
+        },
+        {
+            "classification": "insect",
+            "title" : "Milkweed Bug",
+            "description" : "Standing on flower at the edge of meadow and woods.",
+            "date" : "2017-06-17T16:45:06Z"
+        },
+        {
+            "classification": "fish",
+            "title" : "Largemouth Bass",
+            "description" : "Swimming in a stream crossing the meadow.",
+            "date" : "2017-06-18T17:14:03Z"
+        },
+        {
+            "classification": "plant",
+            "title" : "Poison Oak",
+            "description" : "Attached to side of a tree in the woods.",
+            "date" : "2017-06-19T10:05:32Z"
+        },
+        {
+            "classification": "insect",
+            "title" : "Rosy Maple Moth",
+            "description" : "Located in wet area of woods.",
+            "date" : "2017-06-19T10:39:08Z"
+        },
+        {
+            "classification": "mammal",
+            "title" : "Groundhog",
+            "description" : "Standing on rocks in grassy meadow.",
+            "date" : "2017-06-20T12:32:39Z"
+        },
+        {
+            "classification": "mammal",
+            "title" : "Black Squirrel",
+            "description" : "Standing on granite slab in meadow.",
+            "date" : "2017-06-20T13:17:01Z"
+        }
+    ]
 }

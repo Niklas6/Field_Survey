@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sports Events-->
+        <!--Field Survey-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SportsEventsViewController" customModule="Sports_Events" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Sports Events" id="zkq-om-hW7"/>
+                    <navigationItem key="navigationItem" title="Field Survey" id="zkq-om-hW7"/>
                     <connections>
                         <outlet property="sportsEventsTableView" destination="JBB-ou-A4E" id="eZQ-11-cPx"/>
                     </connections>
@@ -92,7 +92,7 @@
             </objects>
             <point key="canvasLocation" x="920.79999999999995" y="763.26836581709154"/>
         </scene>
-        <!--Event-->
+        <!--Observation-->
         <scene sceneID="BNp-Uf-VCy">
             <objects>
                 <viewController id="uIr-XE-vLV" customClass="SportsEventDetailViewController" customModule="Sports_Events" customModuleProvider="target" sceneMemberID="viewController">
@@ -119,23 +119,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0No-qx-4zO">
+                                <rect key="frame" x="10" y="164" width="355" height="483"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="mzh-sk-Ble" firstAttribute="top" secondItem="izd-ee-f3o" secondAttribute="top" constant="20" id="0Yq-5C-W7F"/>
                             <constraint firstItem="Wfx-9L-awB" firstAttribute="top" secondItem="c5C-eb-B64" secondAttribute="bottom" constant="8" id="1uN-PI-tIt"/>
+                            <constraint firstItem="izd-ee-f3o" firstAttribute="trailing" secondItem="0No-qx-4zO" secondAttribute="trailing" constant="10" id="4f6-1c-7FK"/>
+                            <constraint firstItem="0No-qx-4zO" firstAttribute="leading" secondItem="izd-ee-f3o" secondAttribute="leading" constant="10" id="Gx7-dl-r6t"/>
+                            <constraint firstItem="izd-ee-f3o" firstAttribute="bottom" secondItem="0No-qx-4zO" secondAttribute="bottom" constant="20" id="GxW-3D-lUH"/>
                             <constraint firstItem="c5C-eb-B64" firstAttribute="top" secondItem="mzh-sk-Ble" secondAttribute="top" id="IQH-ng-4E9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="c5C-eb-B64" secondAttribute="trailing" priority="250" id="MuQ-R5-gCH"/>
                             <constraint firstItem="c5C-eb-B64" firstAttribute="leading" secondItem="mzh-sk-Ble" secondAttribute="trailing" constant="8" id="a7v-47-Bhd"/>
+                            <constraint firstItem="0No-qx-4zO" firstAttribute="top" secondItem="mzh-sk-Ble" secondAttribute="bottom" constant="30" id="ktd-6f-CqT"/>
                             <constraint firstItem="mzh-sk-Ble" firstAttribute="leading" secondItem="lS3-3T-UEr" secondAttribute="leadingMargin" id="leZ-TS-qmO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Wfx-9L-awB" secondAttribute="trailing" priority="250" id="qDa-6i-iiq"/>
                             <constraint firstItem="Wfx-9L-awB" firstAttribute="leading" secondItem="mzh-sk-Ble" secondAttribute="trailing" constant="8" id="wUx-JA-cVx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="izd-ee-f3o"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Event" id="JwH-Xh-dVR"/>
+                    <navigationItem key="navigationItem" title="Observation" id="JwH-Xh-dVR"/>
                     <connections>
                         <outlet property="dateLabel" destination="Wfx-9L-awB" id="FNf-eO-QSE"/>
+                        <outlet property="desc" destination="0No-qx-4zO" id="CTO-eM-JYb"/>
                         <outlet property="matchupLabel" destination="c5C-eb-B64" id="aS4-dz-iHb"/>
                         <outlet property="sportImageView" destination="mzh-sk-Ble" id="Kez-Nq-n0L"/>
                     </connections>

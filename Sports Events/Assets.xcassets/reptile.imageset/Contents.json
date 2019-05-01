@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "basketball.png",
+      "filename" : "reptile.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "basketball@2x.png",
+      "filename" : "reptile@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "basketball@3x.png",
+      "filename" : "reptile@3x.png",
       "scale" : "3x"
     }
   ],

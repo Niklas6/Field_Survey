@@ -9,16 +9,19 @@
 import Foundation
 
 enum Sport: String, Codable {
-    case baseball
-    case basketball
-    case football
-    case hockey
-    case soccer
+    case mammal
+    case bird
+    case fish
+    case amphibian
+    case plant
+    case insect
+    case reptile
 }
 
 struct SportsEvent: Codable {
-    var sport: Sport
-    var matchup: String
+    var classification: Sport
+    var title: String
+    var description: String
     var date: Date
 }
 
